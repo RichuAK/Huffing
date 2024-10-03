@@ -1,6 +1,6 @@
 # Mint your own Advanced Solidity Bootcamp Q3 2024 NFT
 
-This project is designed to commemorate and reward the participants of the Advanced Solidity Bootcamp for Q3 2024 by minting exclusive, personalized NFTs. Each NFT is unique to its respective participant and serves as a digital certificate of completion and achievement. The NFT can only be minted by verified participants of the bootcamp and is issued once per participant. To ensure its significance and exclusivity, the NFT is non-burnable and non-transferable, cementing its role as a permanent token of accomplishment within the blockchain space.
+This project is designed to commemorate and reward the participants of the Advanced Solidity Bootcamp for Q3 2024 by minting exclusive, personalized NFTs. Each NFT is unique to its respective participant and serves as a digital certificate of completion and achievement. The NFT can only be minted by verified participants of the CFT exercise in the bootcamp and is issued once per participant. The tokenID is the position in the leaderboard of the CFT exercise.
 
 ## NFT - ERC721
 
