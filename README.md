@@ -1,66 +1,34 @@
-## Foundry
+# Mint your own Advanced Solidity Bootcamp Q3 2024 NFT
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This project is designed to commemorate and reward the participants of the Advanced Solidity Bootcamp for Q3 2024 by minting exclusive, personalized NFTs. Each NFT is unique to its respective participant and serves as a digital certificate of completion and achievement. The NFT can only be minted by verified participants of the bootcamp and is issued once per participant. To ensure its significance and exclusivity, the NFT is non-burnable and non-transferable, cementing its role as a permanent token of accomplishment within the blockchain space.
 
-Foundry consists of:
+## NFT - ERC721
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+A non-fungible token (NFT) is a unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity. It cannot be copied, substituted, or subdivided. The ownership of an NFT is recorded in the blockchain and can be transferred by the owner, allowing NFTs to be sold and traded. The ERC-721 introduces a standard for NFT, in other words, this type of Token is unique and can have different value than another Token from the same Smart Contract, maybe due to its age, rarity or even something else like its visual.
 
-## Documentation
+### Documentation
+
+https://docs.openzeppelin.com/contracts/5.x/erc721
+
+## The Huff Programming Language - Code
+
+Huff is a low-level programming language designed for developing highly optimized smart contracts that run on the Ethereum Virtual Machine (EVM). Huff does not hide the inner workings of the EVM. Instead, Huff exposes its programming stack to the developer for manual manipulation. Rather than having functions, Huff has macros - individual blocks of bytecode that can be rigorously tested and evaluated using the Huff runtime testing suite.While EVM experts can use Huff to write highly-efficient smart contracts for use in production, it can also serve as a way for beginners to learn more about the EVM.
+
+### Documentation
+
+https://huff.sh/
+
+## Foundry - Toolchain
+
+Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.
+
+### Documentation
 
 https://book.getfoundry.sh/
 
-## Usage
 
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
+#### Test
 
 ```shell
 $ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
 ```
