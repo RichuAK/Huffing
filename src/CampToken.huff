@@ -21,7 +21,7 @@
 
 
 
-
+/// @dev Whitelist based on SolidityCTF leaderboard. The rank on the leaderboard is the minter's tokenID
 #define macro WHITELIST() = takes(0) returns(0){
     0x01 0xe487E70718cc0C71117e4852C90814A5CF0F3136 [ADDRESS_TO_TOKENID_MAPPING_LOCATION] STORE_ELEMENT_FROM_KEYS(0x00)
     0x02 0x50DF0af8a06f82fCcB0aCb77D8c986785b36d734 [ADDRESS_TO_TOKENID_MAPPING_LOCATION] STORE_ELEMENT_FROM_KEYS(0x00)
